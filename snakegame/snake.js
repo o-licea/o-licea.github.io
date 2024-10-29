@@ -19,5 +19,5 @@ window.onload = function() {
 
 function update() {
 	context.fillStyle="black";
-	context.filllRect(0, 0, board.width, board.height);
+	context.fillRect(0, 0, board.width, board.height);
 }
