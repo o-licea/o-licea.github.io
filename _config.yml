@@ -1,6 +1,0 @@
-title: My Website
-theme: minima
-plugins:
-  - jekyll-seo-tag
-include:
-  - _pages
