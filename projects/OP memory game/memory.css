@@ -1,0 +1,18 @@
+/* Create proportions for the board */
+#board {
+    display: grid;
+    grid-template-rows: repeat(3, 90px);
+    grid-template-columns: repeat(5, 90px);
+    gap: 10px;
+}
+/* Create proportions for the card */
+.card {
+    width: 90px;
+    height: 128px;
+    cursor: pointer;
+    align-items: center;
+}
+/* Set text size for the error box */
+#errorCount {
+    font-size: 20px;
+}

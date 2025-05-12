@@ -1,0 +1,63 @@
+main {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+	main {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media only screen and (min-width: 801px) {
+	main {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-left:200px;
+		padding-right: 200px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	main {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-left:300px;
+		padding-right: 300px;
+	}
+}
+
+body{
+    margin: 0px;
+	background-image: 
+		linear-gradient(
+			rgba(255,249, 249, 0.5),
+			rgba(255, 249, 249, 0.5)
+		);
+	background-color: rgb(78, 78, 78);
+	color: rgb(68, 68, 68);	
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+	display: flex;
+	justify-content: center;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+	padding: 15px;
+	margin: 0px;
+    display: block;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    float: left;
+}
+
