@@ -61,3 +61,40 @@ body{
     float: left;
 }
 
+.blog-posts {
+	max-height: 500px;
+	overflow-y: auto;
+	padding-right: 10px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-color: rgb(68, 68, 68);
+}
+
+.blog-posts p {
+	background-image: 
+		linear-gradient(
+			rgba(255,249, 249, 0.5),
+			rgba(255, 249, 249, 0.5)
+		);
+	background-color: rgb(78, 78, 78);
+	color: rgb(68, 68, 68);
+	text-align: left;
+}
+
+.blog-posts a {
+	color: rgb(68, 68, 68);
+	text-decoration: none;
+}
+
+.blog-posts a:hover {
+	color: rgb(68, 68, 68);
+	text-decoration: underline;
+}
+
+.blog-posts a:visited {
+	color: rgb(68, 68, 68);
+}
+
+.post-content p {
+	line-height: 26px;
+}
