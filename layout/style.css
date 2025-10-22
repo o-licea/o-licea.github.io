@@ -98,3 +98,16 @@ body{
 .post-content p {
 	line-height: 26px;
 }
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: hsl(0, 0%, 25%);
+	text-align: center;
+	text
+	color: white;
+	
+
+}
